@@ -17,7 +17,7 @@ section {
 }
 
 section:nth-child(2) {
-  background-image: url(/fredrikstenfestning/slides_Fredriksten/bilde1.jpg);
+  background-image: url(slides_Fredriksten/bilde2.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ section:nth-child(2) {
   padding-bottom: 20vh;
 }
 section:nth-child(3) {
-  background-image: url(/fredrikstenfestning/slides_Fredriksten/bilde2.jpg);
+  background-image: url(slides_Fredriksten/bilde4.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ section:nth-child(3) {
   padding-bottom: 20vh;
 }
 section:nth-child(4) {
-  background-image: url(/fredrikstenfestning/slides_Fredriksten/bilde3.jpg);
+  background-image: url(slides_Fredriksten/bilde7.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ section:nth-child(4) {
   padding-bottom: 20vh;
 }
 section:nth-child(5) {
-  background-image: url(/fredrikstenfestning/slides_Fredriksten/bilde4.jpg);
+  background-image: url(slides_Fredriksten/bilde8.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -168,32 +168,22 @@ p {
   overflow: hidden;
 }
 .image-container {
+  padding: 5%;
   width: auto;
   height: auto;
-  clear: both;
-  -webkit-transition: left 2s;
-  -moz-transition: left 2s;
-  -o-transition: left 2s;
-  transition: left 2s;
+
 }
 .slide {
   margin: 0px;
   padding: 0px;
   
 }
-#slide-1:target ~ .image-container {
-  left: auto;
-}
-#slide-2:target ~ .image-container {
-  left: auto;
-}
-#slide-3:target ~ .image-container {
-  left: auto;
-}
+
 .buttons {
   position: relative;
   top: -20px;
 }
+
 .buttons a {
   display: inline-block;
   height: 15px;
