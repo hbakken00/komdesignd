@@ -34,7 +34,7 @@ header {
    
     position: relative;
     overflow: hidden;
-    background-image: url("/kongstenFort/slides/bilde1.jpg");
+    background-image: url("slides/bilde1.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -141,8 +141,9 @@ nav a:hover {
 }
 
 .graf{
-    background-image: url("/olivenlundenTO/StrømprisutviklingenChart.png");
-
+    background-image: url("slides/123.png");
+    height: 100%;
+    width: auto;
 }
 
 /* Slideshow container */
